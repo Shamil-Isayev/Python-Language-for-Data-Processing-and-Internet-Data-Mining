@@ -17,10 +17,10 @@ def light_theme():
 
 
 def dark_theme():
-    frame = tk.Frame(root, bg="#22478a")
+    frame = tk.Frame(root, bg="#22448a")
     frame.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.8)
     lbl_2 = tk.Label(frame, font=('calibri', 40, 'bold'),
-                     background='#22478a', foreground='black')
+                     background='#22479a', foreground='black')
     lbl_2.pack(anchor="s")
 
     def time():
